@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Otávio Moreira Benedeti | Desenvolvedor</title>
+    <meta name="description" content="Portfólio de Otávio Moreira Benedeti, Técnico em Desenvolvimento de Sistemas.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="nav" id="nav">
+        <a href="#inicio" class="logo">&lt;otavio<span>/</span>&gt;</a>
+        <input type="checkbox" id="nav-toggle" class="f-radio" aria-label="Abrir menu">
+        <label for="nav-toggle" class="burger" aria-hidden="true"><span></span><span></span><span></span></label>
+        <nav id="menu">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre mim</a>
+            <a href="#tecnologias">Tecnologias</a>
+            <a href="#formacao">Formação</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- INÍCIO -->
+        <section id="inicio" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <p class="hello">Olá, eu sou</p>
+                    <h1>Otávio Moreira Benedeti</h1>
+                    <p class="role">17 anos • Técnico em Desenvolvimento de Sistemas</p>
+                    <p class="lead">Sou estudante de Desenvolvimento de Sistemas apaixonado por tecnologia, programação
+                        e criação de soluções digitais.</p>
+                    <div class="actions">
+                        <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+                        <a href="#sobre" class="btn btn-ghost">Sobre mim</a>
+                    </div>
+                </div>
+                <div class="terminal" aria-hidden="true">
+                    <div class="term-bar"><i></i><i></i><i></i><span>otavio.js</span></div>
+                    <pre><code><span class="c">// perfil do desenvolvedor</span>
+<span class="k">const</span> <span class="v">otavio</span> = {
+  nome: <span class="s">"Otávio Benedeti"</span>,
+  idade: <span class="n">17</span>,
+  curso: <span class="s">"Desenvolvimento de Sistemas"</span>,
+  stack: [<span class="s">"HTML"</span>, <span class="s">"CSS"</span>, <span class="s">"JavaScript"</span>,
+          <span class="s">"Node.js"</span>, <span class="s">"MySQL"</span>],
+  aprendendo: <span class="k">true</span>
+};<span class="cursor"></span></code></pre>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE -->
+        <section id="sobre" class="section">
+            <div class="container">
+                <h2 class="reveal">Sobre mim</h2>
+                <div class="about reveal">
+                    <div class="about-text">
+                        <p>Meu nome é Otávio Moreira Benedeti, tenho 17 anos e sou estudante do curso Técnico em
+                            Desenvolvimento de Sistemas. Tenho interesse em tecnologia, programação e desenvolvimento de
+                            aplicações e sites.</p>
+                        <p>Durante minha formação, venho desenvolvendo projetos para colocar em prática conhecimentos de
+                            desenvolvimento web, programação, banco de dados e APIs.</p>
+                    </div>
+                    <div class="stats">
+                        <div class="stat"><strong>17 anos</strong><span>Idade</span></div>
+                        <div class="stat"><strong>Técnico</strong><span>Desenvolvimento de Sistemas</span></div>
+                        <div class="stat"><strong>Web</strong><span>Desenvolvimento Web</span></div>
+                        <div class="stat"><strong>Projetos</strong><span>Desenvolvidos durante minha formação</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TECNOLOGIAS -->
+        <section id="tecnologias" class="section alt">
+            <div class="container">
+                <h2 class="reveal">O que eu sei</h2>
+                <p class="sub reveal">Linguagens e ferramentas que uso nos meus projetos.</p>
+                <div class="tech-grid">
+                    <article class="tech reveal">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt=""
+                            loading="lazy">
+                        <h3>HTML</h3>
+                        <p>Utilizo HTML para criar a estrutura e organização das páginas e aplicações web.</p>
+                    </article>
+                    <article class="tech reveal">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt=""
+                            loading="lazy">
+                        <h3>CSS</h3>
+                        <p>Utilizo CSS para criar layouts, estilização, responsividade, animações e interfaces modernas.
+                        </p>
+                    </article>
+                    <article class="tech reveal">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                            alt="" loading="lazy">
+                        <h3>JavaScript</h3>
+                        <p>Utilizo JavaScript para criar interações, funcionalidades e comportamentos dinâmicos nas
+                            aplicações.</p>
+                    </article>
+                    <article class="tech reveal">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt=""
+                            loading="lazy">
+                        <h3>Node.js</h3>
+                        <p>Utilizo Node.js no desenvolvimento de aplicações e APIs no back-end.</p>
+                    </article>
+                    <article class="tech reveal">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt=""
+                            loading="lazy">
+                        <h3>MySQL</h3>
+                        <p>Utilizo MySQL para criação, organização e gerenciamento de bancos de dados.</p>
+                    </article>
+                    <article class="tech reveal">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg" alt=""
+                            loading="lazy" class="invert">
+                        <h3>Prisma</h3>
+                        <p>Utilizo Prisma para facilitar a comunicação entre aplicações Node.js e bancos de dados.</p>
+                    </article>
+                    <article class="tech reveal">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt=""
+                            loading="lazy" class="invert">
+                        <h3>Git e GitHub</h3>
+                        <p>Utilizo Git e GitHub para versionamento e gerenciamento dos meus projetos.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="formacao" class="section">
+            <div class="container">
+                <h2 class="reveal">Minha formação</h2>
+                <div class="timeline">
+                    <article class="tl-item reveal">
+                        <span class="tl-dot"></span>
+                        <h3>Técnico em Desenvolvimento de Sistemas</h3>
+                        <p class="tl-school">SESI / SENAI</p>
+                        <p>Curso técnico com foco em lógica de programação, desenvolvimento web, banco de dados, criação
+                            de APIs e trabalho em equipe por meio de projetos práticos.</p>
+                        <div class="tags"><span class="tag">Programação</span><span class="tag">Web</span><span
+                                class="tag">Banco de dados</span><span class="tag">APIs</span></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJETOS -->
+        <section id="projetos" class="section alt">
+            <div class="container">
+                <div class="sec-head reveal">
+                    <h2>Meus projetos</h2>
+                    <p class="sub">Alguns dos projetos desenvolvidos durante minha formação.</p>
+                </div>
+                <input type="radio" name="f" id="f-todos" class="f-radio" checked>
+                <input type="radio" name="f" id="f-html" class="f-radio">
+                <input type="radio" name="f" id="f-css" class="f-radio">
+                <input type="radio" name="f" id="f-js" class="f-radio">
+                <input type="radio" name="f" id="f-node" class="f-radio">
+                <input type="radio" name="f" id="f-mysql" class="f-radio">
+                <div class="filters" role="group" aria-label="Filtrar projetos por tecnologia"><label
+                        for="f-todos">Todos</label><label for="f-html">HTML</label><label for="f-css">CSS</label><label
+                        for="f-js">JavaScript</label><label for="f-node">Node.js</label><label
+                        for="f-mysql">MySQL</label></div>
+                <div class="projects">
+                    <!-- PROJETO 1: para adicionar outro, copie este bloco inteiro -->
+                    <article class="project reveal t-html t-css t-js t-node t-mysql">
+                        <div class="p-img">
+                            <span class="ph">CodeChamp</span>
+                            <img src="codechamp.png" alt="" title="Captura de tela de CodeChamp" loading="lazy">
+                            <span class="p-num">01</span>
+                        </div>
+                        <div class="p-body">
+                            <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span
+                                    class="tag">JavaScript</span><span class="tag">MySQL</span><span class="tag">Prisma</span></div>
+                            <h3>CodeChamp</h3>
+                            <p>O CodeChamp é uma plataforma desenvolvida para ajudar estudantes a aprender programação
+                                de forma prática e divertida. O site reúne aulas, quizes, desafios e jogos sobre
+                                programação, permitindo que os usuários desenvolvam seus conhecimentos enquanto praticam
+                                diferentes linguagens e conceitos.</p>
+                            <div class="p-links">
+                                <!-- Coloque o link real no href e remova class="off" -->
+                                <a href="https://otaviobenedeti.github.io/CodeChamp/site/login.html"\ class="" aria-disabled="true">Ver projeto ↗</a>
+                                <a href="https://github.com/otaviobenedeti/CodeChamp" class="" aria-disabled="true">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project reveal t-html t-css t-js">
+                        <div class="p-img">
+                            <span class="ph">Jogo</span>
+                            <img src="ordemdofim.jpg" alt=""
+                                title="Ordem do Fim" loading="lazy">
+                            <span class="p-num">03</span>
+                        </div>
+                        <div class="p-body">
+                            <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span
+                                    class="tag">JavaScript</span></div>
+                            <h3>Jogo de tabuleiro com pedra, papel e tesoura</h3>
+                            <p>Ordem do Fim é um jogo inspirado no clássico Pedra, Papel e Tesoura, desenvolvido com uma estética baseada no universo visual de Minecraft. O jogador enfrenta desafios e adversários utilizando diferentes escolhas estratégicas, tornando as partidas simples, divertidas e competitivas. O projeto combina uma mecânica fácil de entender com uma identidade visual inspirada em jogos de blocos.</p>
+                            <div class="p-links">
+                                <a href="https://otaviobenedeti.github.io/Ordem-do-Fim/" class="" aria-disabled="true">Ver projeto ↗</a>
+                                <a href="https://github.com/otaviobenedeti/Ordem-do-Fim" class="" aria-disabled="true">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- PROJETO 5: para adicionar outro, copie este bloco inteiro -->
+                </div>
+            </div>
+        </section>
+
+        <!-- OBJETIVOS -->
+        <section id="objetivos" class="section">
+            <div class="container">
+                <h2 class="reveal">Meus objetivos</h2>
+                <div class="goals">
+                    <div class="goal reveal">
+                        <h3>Aprender</h3>
+                        <p>Aprender novas linguagens, ferramentas e tecnologias.</p>
+                    </div>
+                    <div class="goal reveal">
+                        <h3>Desenvolver</h3>
+                        <p>Criar projetos cada vez mais completos.</p>
+                    </div>
+                    <div class="goal reveal">
+                        <h3>Evoluir</h3>
+                        <p>Continuar desenvolvendo minhas habilidades como programador.</p>
+                    </div>
+                    <div class="goal reveal">
+                        <h3>Profissionalizar</h3>
+                        <p>Construir experiência e conhecimento na área de tecnologia.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="section alt">
+            <div class="container">
+                <h2 class="reveal">Entre em contato</h2>
+                <p class="sub reveal">Estou sempre interessado em aprender, desenvolver novos projetos e conhecer novas
+                    oportunidades na área de tecnologia.</p>
+                <div class="contact reveal">
+                    <ul class="contact-list">
+                        <!-- Troque pelos seus dados reais -->
+                        <li><span>GitHub</span><a href="https://github.com/otaviobenedeti" target="_blank"
+                                rel="noopener">github.com/otaviobenedeti</a></li>
+                        <li><span>Instagram</span><a href="https://www.instagram.com/otavio__benedeti/" target="_blank"
+                                rel="noopener">@otavio__benedeti</a></li>
+                        <li><span>E-mail</span><a href="otaviombenedeti@gmail.com">otaviombenedeti@gmail.com</a></li>
+                        <li><span>Telefone</span><a href="tel:+5519999245615">(19) 99924-5615</a></li>
+                    </ul>
+                    <form action="mailto:otaviombenedeti@gmail.com" method="post" enctype="text/plain">
+                        <label>Nome<input type="text" name="nome" required autocomplete="name"></label>
+                        <label>E-mail<input type="email" name="email" required autocomplete="email"></label>
+                        <label>Mensagem<textarea name="mensagem" rows="5" required></textarea></label>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container foot">
+            <div>
+                <strong>Otávio Moreira Benedeti</strong>
+                <p>Técnico em Desenvolvimento de Sistemas</p>
+            </div>
+            <div class="foot-links">
+                <a href="https://github.com/otaviobenedeti" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://www.instagram.com/otavio__benedeti/" target="_blank" rel="noopener">Instagram</a>
+                <a href="mailto:otaviombenedeti@gmail.com">E-mail</a>
+            </div>
+            <p class="copy">© 2026 Otávio Moreira Benedeti</p>
+        </div>
+    </footer>
+
+    <a class="to-top" href="#inicio" aria-label="Voltar ao topo">↑</a>
+</body>
+
+</html>
